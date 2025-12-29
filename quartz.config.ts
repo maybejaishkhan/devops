@@ -1,9 +1,14 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 
+/**
+ * Quartz 4 Configuration
+ *
+ * See https://quartz.jzhao.xyz/configuration for more information.
+ */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Jaish Khan",
+    pageTitle: "Quartz 4",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -11,16 +16,16 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "localhost:8080",
+    baseUrl: "quartz.jzhao.xyz",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Inter",
-        body: "Inter",
-        code: "Jetbrains Mono",
+        header: "Schibsted Grotesk",
+        body: "Source Sans Pro",
+        code: "IBM Plex Mono",
       },
       colors: {
         lightMode: {
@@ -35,22 +40,16 @@ const config: QuartzConfig = {
           textHighlight: "#fff23688",
         },
         darkMode: {
-          // Background layers
-          light: "#0f1115",       // main background (matte black)
-          lightgray: "#161a22",   // cards / surfaces
-          gray: "#2a2f3a",        // borders / dividers
-          darkgray: "#9aa4b2",    // muted text
-          dark: "#e6e8ee",        // primary text
-
-          // Accent colors
-          secondary: "#5c6ac4",   // indigo (primary accent)
-          tertiary: "#8f9cff",    // soft indigo highlight
-
-          // Effects
-          highlight: "rgba(92, 106, 196, 0.14)", // indigo glow
-          textHighlight: "#5c6ac488",
+          light: "#161618",
+          lightgray: "#393639",
+          gray: "#646464",
+          darkgray: "#d4d4d4",
+          dark: "#ebebec",
+          secondary: "#7b97aa",
+          tertiary: "#84a59d",
+          highlight: "rgba(143, 159, 169, 0.15)",
+          textHighlight: "#b3aa0288",
         },
-
       },
     },
   },
