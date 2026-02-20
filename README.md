@@ -1,14 +1,7 @@
 
 # DevOps
 
-<small>This repo contains things that I learned on my internship as well as other unrelated knowledge I have gathered.</small>
-
-> **DevOps Internship**  
-> Instructor: *Abdullah Kaleem*  
-> Organization: *Jumppace*  
-> Position: *Devops Engineer (Intern)*  
-> Location: *Karachi, Pakistan*  
-> Date: *17 June - 17 July 2025*
+<small>This repo contains my entire devops second brain.</small>
 
 It is a culture/process whose main goal is to develop, release and maintain software with maximum quality and speed, via automation tools.
 
